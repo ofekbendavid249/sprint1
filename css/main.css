@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(187, 222, 231);
+    text-align: center;
+}
+
+button {
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: rgb(60, 108, 124);
+    cursor: pointer;
+    padding: 16px;
+}
+
+button:hover {
+    background-color: aqua;
+
+}
+
+img {
+    border-radius: 50%;
+    width: 50px;
+}
+table{
+    margin: auto;
+    width: 400px;
+    height: 400px;
+}
+
+.board {
+    width: 400px;
+    margin: auto;
+    background-color: rgb(75, 58, 142);
+    padding: 10px;
+    text-align: center;
+}
+.cell:hover{
+    background-color: rgb(155, 48, 139);
+  
+}
+
+.timer{
+    margin: auto;
+    height: 15px;
+    width: 100px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(127, 126, 54);
+    padding: 10px;
+}

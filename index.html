@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>sprint day 1</title>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body onload="init()">
+    <h1>Game sprint 1</h1>
+    <!-- <p>choose the difficulty:</p> -->
+
+    <div>
+        please choose difficulty:
+        <button id="difficulty1" onclick="difficulty(this)">Beginner (4 x 4)</button>
+        <button id="difficulty2" onclick="difficulty(this)">Medium (8 x 8)</button>
+        <button id="difficulty3" onclick="difficulty(this)">Expert (12 x 12)</button>
+    </div>
+    <p class="pSmiley"><button class="restart" onclick="init()"><img src="assets/emoji.gif" /></button></p>
+    <div id ="js_timer">Timer:
+    <div id="timer">00:00</div>
+    </div>
+
+    <table>
+        <ul>
+            <tbody class="board" border="5"></tbody>
+        </ul>
+    </table>
+    </ul>
+
+
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
